@@ -48,9 +48,9 @@ Explorez les différents composants de ce projet via les liens suivants :
 - **Production** :
 
     - Si le backend prend du retard au démarrage, c'est dû au démarrage à froid.
-    - Frontend : [https://h3micro.vercel.app](https://h3micro.vercel.app)
-    - Backend : [https://h3microserver.onrender.com](https://h3microserver.onrender.com)
-    - Documentation Backend : [https://h3microserver.onrender.com/api-docs](https://h3microserver.onrender.com/api-docs)
+    - Frontend : pas encore fait
+    - Backend : pas encore fait
+    - Documentation Backend : pas encore fait
 
 ### Captures d'écran
 
