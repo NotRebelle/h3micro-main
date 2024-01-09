@@ -66,10 +66,6 @@ Le schéma généré à l'aide de la bibliothèque `docker-compose-viz` représe
 
 ![Visualisation de Docker Compose](./images/docker-compose.png)
 
-#### Hub Azure
-
-![Hub Azure](./images/azure_hub.png)
-
 #### Docker Compose en Action
 
 ![Exécution de Docker Compose](./images/docker_compose_running.png)
