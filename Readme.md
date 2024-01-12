@@ -50,10 +50,6 @@ Here's an architectural overview of the development environment:
 
 ![Development Environment Architecture](./images/diagram.png)
 
-### Metricbeat
-
-![Development Environment Architecture](./images/elastic-monitoring.png)
-
 ## Readtime data dashboard
 
 ![Alt text](./images/dashboard.png)
