@@ -1,55 +1,52 @@
-# H3Micro Project README
+# README du Projet H3Micro
 
 ## IMPORTANT
-
-Please refer to [requirements.md](./requirements.md) for a comprehensive checklist of completed tasks and their status.
-
 ---
 
-## Project: H3Micro - Embracing Microservices
+## Projet : H3Micro - Adoptez les Microservices
 
 ### Introduction
 
-Welcome to the H3Micro project! This initiative serves as a live demonstration of microservices architecture, featuring a well-coordinated ecosystem of key components:
+Bienvenue dans le projet H3Micro ! Cette initiative sert de démonstration en direct de l'architecture des microservices, mettant en avant un écosystème bien coordonné de composants clés :
 
--   **Frontend**: Crafted using React.
--   **Backend**: Engineered with Express.js.
--   **Container Network**: Enabling seamless communication among all containers.
--   **Volumes**: Ensuring resilient data persistence across containers.
--   **Reverse Proxy**: Empowered by Nginx to safeguard your connections, complete with HTTPS certificates for both frontend and backend.
--   **Scripts**: Equipped with a range of helpful scripts for Docker health checks, database testing, and comprehensive front-end and back-end testing.
+-   **Frontend** : Conçu avec React.
+-   **Backend** : Élaboré avec Express.js.
+-   **Réseau de Conteneurs** : Permettant une communication transparente entre tous les conteneurs.
+-   **Volumes** : Assurant une persistance robuste des données à travers les conteneurs.
+-   **Reverse Proxy** : Propulsé par Nginx pour sécuriser vos connexions, avec des certificats HTTPS pour le frontend et le backend.
+-   **Scripts** : Doté d'une gamme de scripts utiles pour les vérifications de santé Docker, les tests de base de données et les tests complets du frontend et du backend.
 
-### Prerequisites
+### Prérequis
 
-Before diving into this project, make sure you have the following prerequisites installed:
+Avant de plonger dans ce projet, assurez-vous d'avoir installé les prérequis suivants :
 
 -   [Docker](https://www.docker.com/get-started)
 -   [Docker Compose](https://docs.docker.com/compose/install)
 
-### Access Links
+### Liens d'Accès
 
-Explore the various components of this project via the following links:
+Explorez les différents composants de ce projet via les liens suivants :
 
--   **Frontend**:
+-   **Frontend** :
 
-    -   HTTP: [http://localhost:5173](http://localhost:5173)
+    -   HTTP : [http://localhost:5173](http://localhost:5173)
 
--   **Backend**:
+-   **Backend** :
 
-    -   HTTP: [http://localhost:8000](http://localhost:8000)
+    -   HTTP : [http://localhost:8000](http://localhost:8000)
 
--   **Backend Documentation**:
+-   **Documentation Backend** :
 
-    -   HTTP: [http://localhost:8000/api-docs](http://localhost:8000/api-docs)
+    -   HTTP : [http://localhost:8000/api-docs](http://localhost:8000/api-docs)
 
-### Screenshots
+### Captures d'écran
 
-### Development Environment Architecture Schema
+### Schéma d'Architecture de l'Environnement de Développement
 
-Here's an architectural overview of the development environment:
+Voici un aperçu architectural de l'environnement de développement :
 
-![Development Environment Architecture](./images/diagram.png)
+![Architecture de l'Environnement de Développement](./images/diagram.png)
 
-## Readtime data dashboard
+## Tableau de bord des données en temps réel
 
 ![Alt text](./images/dashboard.png)
