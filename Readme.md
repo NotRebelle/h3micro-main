@@ -1,82 +1,59 @@
-# README du Projet H3Micro
+# H3Micro Project README
 
 ## IMPORTANT
 
-Veuillez vous référer à [requirements.md](./requirements.md) pour une liste complète des tâches terminées et leur statut.
+Please refer to [requirements.md](./requirements.md) for a comprehensive checklist of completed tasks and their status.
 
 ---
 
-## Projet : H3Micro - Adopter les Microservices
+## Project: H3Micro - Embracing Microservices
 
 ### Introduction
 
-Bienvenue dans le projet H3Micro ! Cette initiative sert de démonstration en direct de l'architecture des microservices, mettant en vedette un écosystème bien coordonné de composants clés :
+Welcome to the H3Micro project! This initiative serves as a live demonstration of microservices architecture, featuring a well-coordinated ecosystem of key components:
 
-- **Frontend** : Conçu avec React.
-- **Backend** : Conçu avec Express.js.
-- **Réseau de conteneurs** : Permettant une communication transparente entre tous les conteneurs.
-- **Volumes** : Garantissant la persistance des données résilientes à travers les conteneurs.
-- **Proxy Inverse** : Propulsé par Nginx pour sécuriser vos connexions, avec des certificats HTTPS pour le frontend et le backend.
-- **Scripts** : Équipé d'une gamme de scripts utiles pour les vérifications de santé de Docker, les tests de base de données, et des tests complets de frontend et de backend.
+-   **Frontend**: Crafted using React.
+-   **Backend**: Engineered with Express.js.
+-   **Container Network**: Enabling seamless communication among all containers.
+-   **Volumes**: Ensuring resilient data persistence across containers.
+-   **Reverse Proxy**: Empowered by Nginx to safeguard your connections, complete with HTTPS certificates for both frontend and backend.
+-   **Scripts**: Equipped with a range of helpful scripts for Docker health checks, database testing, and comprehensive front-end and back-end testing.
 
-### Prérequis
+### Prerequisites
 
-Avant de plonger dans ce projet, assurez-vous d'avoir installé les éléments suivants :
+Before diving into this project, make sure you have the following prerequisites installed:
 
-- [Docker](https://www.docker.com/get-started)
-- [Docker Compose](https://docs.docker.com/compose/install)
+-   [Docker](https://www.docker.com/get-started)
+-   [Docker Compose](https://docs.docker.com/compose/install)
 
-### Liens d'Accès
+### Access Links
 
-Explorez les différents composants de ce projet via les liens suivants :
+Explore the various components of this project via the following links:
 
-- **Frontend** :
+-   **Frontend**:
 
-    - HTTP : [http://localhost:5173](http://localhost:5173)
-    - HTTPS : [https://localhost:444](https://localhost:444)
+    -   HTTP: [http://localhost:5173](http://localhost:5173)
 
-- **Backend** :
+-   **Backend**:
 
-    - HTTP : [http://localhost:8000](http://localhost:8000)
-    - HTTPS : [https://localhost](https://localhost)
+    -   HTTP: [http://localhost:8000](http://localhost:8000)
 
-- **Documentation Backend** :
+-   **Backend Documentation**:
 
-    - HTTP : [http://localhost:8000/api-docs](http://localhost:8000/api-docs)
-    - HTTPS : [https://localhost/api-docs](https://localhost/api-docs)
+    -   HTTP: [http://localhost:8000/api-docs](http://localhost:8000/api-docs)
 
-- **Production** :
+### Screenshots
 
-    - Si le backend prend du retard au démarrage, c'est dû au démarrage à froid.
-    - Frontend : pas encore fait
-    - Backend : pas encore fait
-    - Documentation Backend : pas encore fait
+### Development Environment Architecture Schema
 
-### Captures d'écran
+Here's an architectural overview of the development environment:
 
-### Schéma de l'Architecture de l'Environnement de Développement
+![Development Environment Architecture](./images/diagram.png)
 
-Voici un aperçu architectural de l'environnement de développement :
+### Metricbeat
 
-![Architecture de l'Environnement de Développement](./images/diagram-export-18_10_2023%2011_30_56.png)
+![Development Environment Architecture](./images/elastic-monitoring.png)
 
-### Schéma Généré avec `docker-compose-viz`
+## Readtime data dashboard
 
-Le schéma généré à l'aide de la bibliothèque `docker-compose-viz` représente visuellement les relations complexes entre tous les services.
-
-![Visualisation de Docker Compose](./images/docker-compose.png)
-
-#### Docker Compose en Action
-
-![Exécution de Docker Compose](./images/docker_compose_running.png)
-
-## Surveillance
-
-### Prométhée
-
-![Prométhée](./images/Prometheus.png)
-
-### Grafana
-
-![Backend de Grafana](./images/Grafana%20backend.png)
-![Postgres de Grafana](./images/Grafana%20PG.png)
+![Alt text](./images/dashboard.png)
